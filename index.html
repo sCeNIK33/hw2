@@ -8,23 +8,22 @@
 </head>
 
 <body>
-  <div class="mt:p-16 p-4">
+  <div class="mt:p-16 p-4 md:space-x-4">
     <div class="flex">
-      <h1 class="w-1/2 font-bold text-3xl">
+      <h1 class="w-1/2 font-bold text-4xl">
         <a href="index.html">
-          <span>Welcome to</span>
-          <span class="text-green-500">Play By Numbers!</span>
+          <span class="text-white-500">Welcome to Play By Numbers!</span>
         </a>
       </h1>
-      <p class="w-1/2 text-right text-3xl">
+      <p class="w-1/2 text-right text-4xl">
         <strong>When you want data, find it here</strong>
       </p>
     </div>
       
-    <div class="mt-16 md:space-x-4 text-center w-128 border bg-gray-200 text-lg">
+    <div class="mt-16 md:space-x-4 text-center w-128 border bg-blue-200 text-xl">
       <p>No matter what sport you love, when you go to place a bet, start with Play By Numbers.</p>
       <br>
-      <p>Right now, we are supporting the following sports:</p>
+      <p>Select a sport below to access the data!</p>
     </div>
    
     <div class="mt-16 md:flex md:space-x-4">
@@ -79,14 +78,25 @@
     </div>
   </div>
 
-    <br>
-    <br>
-
-    <p>Play By Numbers was born from a passion for <strong>sports and analytics</strong></p>
-    <p><em>Learn more about our journey <a href="about.html">here</a> </p></em> 
+    <div class="flex mt-16 md:space-x-4 text-center w-128 border border-gray-400 rounded shadow-xl text-lg">
+      <div class="md:w-1/10 image-right">
+        <img src="https://cdn1.sph.harvard.edu/wp-content/uploads/sites/59/2016/08/sports.png" width="500" height="100" alt="">
+      </div>
+      <div class="md:w-9/10">
+        <br>
+        <br>
+        <p class="text-center text-xl">Play By Numbers was born from a passion for <strong>sports and analytics</strong></p>
+      <p class="text-center text-xl"><em>Learn more about our journey 
+        <span class="text-blue-800 underline">
+          <a href="about.html">here</a> 
+        </span> 
+      </p></em> 
+      </div>
+    </div>
+   
    
     <div>
-      <div class="m-8 bg-gray-200">
+      <div class="mx-96 bg-gray-200">
         <h1 class="text-center font-bold text-2xl uppercase">Get Newsletters and Alerts!</h1>
         <form netlify class="mt-8 w-64 mx-auto">
           <label for="name" class="font-bold block">Your Name</label>
