@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Play By Numbers</title> 
+    <link href="https://unpkg.com/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -47,7 +48,20 @@
     <br>
     <p>Play By Numbers was born from a passion for <strong>sports and analytics</strong></p>
     <p><em>Learn more about our journey <a href="about.html">here</a> </p></em> 
-</body>
+   
+    <div>
+      <div class="m-8 bg-gray-200">
+        <h1 class="text-center font-bold text-2xl uppercase">Get Newsletters and Alerts!</h1>
+        <form netlify class="mt-8 w-64 mx-auto">
+          <label for="name" class="font-bold block">Your Name</label>
+          <input type="text" name="name" class="border border-gray-400 rounded my-2 p-2">
+          <label for="your-email" class="font-bold block">Your Email</label>
+          <input type="text" name="yourEmail" class="border border-gray-400 rounded my-2 p-2 focus:outline-none">
+          <button class="block mt-4 bg-purple-500 text-white text-bold px-4 py-2 rounded">Join!</button>
+        </form>
+      </div>
+
+  </body>
 </html>
 
 
